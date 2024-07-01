@@ -2,10 +2,10 @@
 require_once '../controllers/UserController.php';
 
 // Configuration de la base de données
-$host = 'lycorisblue.com';
-$dbname = 'lycorisb_arise';
-$username = 'lycorisb_team';
-$password = 'arise@lycoris';
+$host = '.com';
+$dbname = '';
+$username = '';
+$password = '@';
 
 try {
     $db = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
